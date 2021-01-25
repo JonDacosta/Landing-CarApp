@@ -13,11 +13,11 @@ Para iconos:--------> #3C48594D
 */
 @font-face {
     font-family: Anteb;
-    src: url(/assets/font/Anteb-ExtraBlack.ttf);
+    src: url(../font/Anteb-ExtraBlack.ttf);
   }
   @font-face {
       font-family: Antipasto;
-      src: url(/assets/font/AntipastoPro-Medium.woff);
+      src: url(../font/AntipastoPro-Medium.woff);
   }
 
 
@@ -246,7 +246,7 @@ section {
 
 #hero {
     position: relative;
-    background-image: linear-gradient( to right bottom, #46a57a63, #d88b1727), url('./assets/images/caja-prueba.jpg');
+    background-image: linear-gradient( to right bottom, #46a57a63, #f0940c3b), url('../images/caja-prueba.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
