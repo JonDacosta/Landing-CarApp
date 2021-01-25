@@ -250,6 +250,8 @@ section {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    /* max-width: 220rem; */
+    min-height: 100rem;
     /* -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -614,6 +616,7 @@ footer{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+        clip-path:none;
     }
     .portfolio-margin {
         margin: 0;
@@ -627,6 +630,8 @@ footer{
     }
     .app-img img {
         width: 25rem;
+        padding: 0;
+        
     }
     .portfolio-container {
         margin: 2rem 0;
@@ -716,6 +721,7 @@ footer{
     
     .testimonial-container{
         padding: 20px 30px;
+        margin: 2rem;
     }
     .fa-quote {
         display: none;
